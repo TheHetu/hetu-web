@@ -1,7 +1,5 @@
-import { Flex, Image, Text } from '@chakra-ui/react';
+import { Flex, Image } from '@chakra-ui/react';
 import React from 'react';
-import Menu from './Menu';
-import Language from './Language';
 const Navbar = () => {
     return (
        <Flex
@@ -15,7 +13,7 @@ const Navbar = () => {
        justifyContent={'space-between'}
        >
         {/* <Text>THE HETU</Text> */}
-        <Image src='/images/logo2.png' h='100%'/>
+        <Image alt='The Hetu' src='/images/logo2.png' h='100%'/>
         {/* <Menu/> */}
         {/* <Language/> */}
        </Flex>

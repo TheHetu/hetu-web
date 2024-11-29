@@ -1,4 +1,4 @@
-import { Button, Flex, Heading, Image, Text } from '@chakra-ui/react';
+import { Flex, Heading, Image, Text } from '@chakra-ui/react';
 import React from 'react';
 
 const AppDesc = () => {
@@ -30,7 +30,7 @@ const AppDesc = () => {
         skilled professionals are just a click away.
         </Text>
        </Flex>
-       <Image h={'100%'} src='/images/home2.png'/>
+       <Image alt='mobile app' h={'100%'} src='/images/home2.png'/>
        </Flex>
     );
 }

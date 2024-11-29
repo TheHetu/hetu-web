@@ -25,7 +25,7 @@ const Future = () => {
               flexDir={'column'}
               alignItems={'flex-start'}
               >
-                <Image w={'100%'} src='/images/recruiter.png'/>
+                <Image alt='recruiter' w={'100%'} src='/images/recruiter.png'/>
                 <Box>
                     <Heading>For Recruiter</Heading>
                     <Text>Access a pool of skilled professionals nearby ,
@@ -41,7 +41,7 @@ a simple tap.</Text>
               flexDir={'column'}
               alignItems={'flex-start'}
               >
-                <Image  w={'100%'} src='/images/jobseeker.png'/>
+                <Image alt='jobseeker' w={'100%'} src='/images/jobseeker.png'/>
                 <Box>
                     <Heading>For Jobseeker</Heading>
                     <Text>Showcase your skills to local recruiters, get

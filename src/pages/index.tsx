@@ -5,18 +5,6 @@ import AppDesc from "@/components/home/AppDesc";
 import Future from "@/components/home/Future";
 import Joinus from "@/components/joinus/Joinus";
 import { Box } from "@chakra-ui/react";
-import localFont from "next/font/local";
-
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
 
 export default function Home() {
   return (

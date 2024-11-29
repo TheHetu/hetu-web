@@ -38,7 +38,7 @@ const HomePage = () => {
         >Download Our App</Button>
         </Link>
        </Flex>
-       <Image h={'100%'} src='/images/home1.png'/>
+       <Image alt='welcome' h={'100%'} src='/images/home1.png'/>
        </Flex>
     );
 }

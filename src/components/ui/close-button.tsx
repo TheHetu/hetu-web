@@ -3,7 +3,7 @@ import { IconButton as ChakraIconButton } from "@chakra-ui/react"
 import * as React from "react"
 import { LuX } from "react-icons/lu"
 
-export interface CloseButtonProps extends ChakraCloseButtonProps {}
+export interface CloseButtonProps extends ChakraCloseButtonProps {}  // eslint-disable-line @typescript-eslint/no-empty-interface
 
 export const CloseButton = React.forwardRef<
   HTMLButtonElement,
