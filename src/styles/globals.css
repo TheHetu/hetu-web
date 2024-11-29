@@ -1,0 +1,15 @@
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: white;
+  color: black;
+  /* background-image: linear-gradient(to right top, #fd890c, #fa9524, #f89f36, #ead3b6, #f4b358, #d3b193, #ffb68a, #f8c1ab, #f7bc92, #f0c6a1, #e5d9e5, #e2e2e2); */
+}
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
