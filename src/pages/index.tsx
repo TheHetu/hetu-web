@@ -16,7 +16,7 @@ export default function Home() {
      {<AppDesc/>}
      {<Box height={"100px"}></Box>}
      {<Future/>}
-     {<Box height={"100px"}></Box>}
+     {<Box height={"1000px"}></Box>}
      {<Joinus/>}
      {<Box height={"100px"}></Box>}
      {<Footer/>}
